@@ -448,19 +448,6 @@ ol li {
     gap: 1em;
   }
   
-  .project-buttons button {
-    width: 10em; /* Larger size for desktop */
-    height: 2.5em;
-    font-size: 1rem; /* Larger font size for desktop */
-    background-color: var(--sec-clr);
-    color: var(--pry-clr);
-    font-family: var(--sec-ff);
-    border: none;
-    transition: background-color .5s;
-    font-weight: 600;
-    text-transform: capitalize;
-  }
-  
   .project-buttons button.active {
     background-color: var(--pry-clr);
     color: var(--sec-clr);
@@ -490,6 +477,11 @@ ol li {
     position: relative;
     padding: 1.5em;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.09);
+  }
+
+  .project-title {
+    text-align: center;
+    font-family: var(--sec-ff);
   }
   
   .image-wrapper {
@@ -550,8 +542,8 @@ ol li {
 
   .image-wrapper .link-btn {
     position: absolute;
-    top: 0;
-    left: 30%;
+    top: 10%;
+    left: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
